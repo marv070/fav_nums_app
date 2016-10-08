@@ -1,0 +1,17 @@
+Hello <%= name %> , who happens to be <%= age %> years old.  Type in your 3 favorite numbers.
+
+<form method = "post" action = "/fav_nums">
+
+<input type = "number"  name = "num1">
+
+<input type = "number"  name = "num2">
+
+<input type = "number"  name = "num3">
+
+<input type = "hidden" name = "age" value = <%= age %>>
+
+<input type = "hidden" name = "input_name" value = <%= name %>>
+
+<input type = "submit">
+
+</form>

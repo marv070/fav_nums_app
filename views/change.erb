@@ -1,0 +1,13 @@
+Math time <%= name %>, your three favorite numbers are <%= favnum1 %> , <%= favnum2 %> and <%= favnum3 %>.<br>
+If we add them together we get <%= sum %><br>
+Now give me a number to break up into the lowest amount of coins.
+
+<form method = "post" action = "/change">
+
+	<input type = "number"  name = "jingle">
+
+	<input type = "hidden" name = "input_name" value = <%= name %>>
+
+	<input type = "submit">
+
+</form>
